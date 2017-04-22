@@ -155,6 +155,9 @@ on boot
     chmod 0666 /sys/android_touch/doubletap2wake
     chown system system /sys/android_touch/doubletap2wake
 
+on post-fs
+    start qseecomd
+
 # msm specific files that need to be created on /data
 on post-fs-data
     # Create directory for TZ Apps

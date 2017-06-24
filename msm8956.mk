@@ -105,16 +105,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8952 \
     libqomx_core \
-    libmm-qcamera \
-    Snap
+    libmm-qcamera
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
-
-# Consumerir
-PRODUCT_PACKAGES += \
-    consumerir.msm8952
 
 # DataServices
 PRODUCT_PACKAGES += \
@@ -127,10 +122,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8952 \
     memtrack.msm8952 \
     liboverlay
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # Face detection extension
 PRODUCT_PACKAGES += \

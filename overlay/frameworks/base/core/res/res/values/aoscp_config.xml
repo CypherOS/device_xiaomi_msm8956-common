@@ -16,9 +16,6 @@
 -->
 <resources>
 
-    <!-- Wether device should show software navbar on first boot -->
-    <bool name="config_defaultToNavigationBar">false</bool>
-
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:

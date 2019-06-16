@@ -1,0 +1,3 @@
+[submodule "devicesettings"]
+	path = devicesettings
+	url = https://github.com/LineageOS/android_packages_resources_devicesettings

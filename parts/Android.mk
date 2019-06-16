@@ -29,7 +29,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
-    $(TOP)/packages/resources/devicesettings/res
+    $(TOP)/device/xiaomi/msm8956-common/devicesettings/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
